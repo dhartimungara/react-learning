@@ -45,7 +45,7 @@ const Counter = () => {
       <UserTable />
       <Skills />
       <Wrapper color="pink" >
-        <div class="main-text-box" style={{ border: "1px solid pink" }}>
+        <div className="main-text-box" style={{ border: "1px solid pink" }}>
           <h1>Hi, Good Morning</h1>
         </div>
     </Wrapper>

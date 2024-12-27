@@ -1,10 +1,6 @@
 import { useEffect } from "react";
 import Student from "./Students";
 
-useEffect(() => {
-	
-})
-
 
 const College = ({ college }) => {
 	return(

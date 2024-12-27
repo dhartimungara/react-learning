@@ -26,8 +26,8 @@ export function Gender(){
 	return(
 		<>
 			<h1>Select Gender : {gender}</h1>
-			<input onChange={(event) => {setGender(event.target.id)}} type="radio" id="Male" name="gender" value="Male" /><label for="Male">Male</label>
-			<input onChange={(event) => {setGender(event.target.id)}} type="radio" id="Female" name="gender" value="Female" /><label for="Female">Female</label>
+			<input onChange={(event) => {setGender(event.target.id)}} type="radio" id="Male" name="gender" value="Male" /><label htmlFor="Male">Male</label>
+			<input onChange={(event) => {setGender(event.target.id)}} type="radio" id="Female" name="gender" value="Female" /><label htmlFor="Female">Female</label>
 		</>
 	)
 }
